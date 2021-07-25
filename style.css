@@ -6,15 +6,15 @@ html,body {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.25rem;
-    font-weight: 500;
+    font-weight: bold;
     text-align: center;
-    color: #22486C;
+    color: #1F6A5D;
 }
 
 h2 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2.25rem;
     font-weight: bold;
 }
@@ -56,41 +56,41 @@ p {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-decoration: none;
-    color: #399EDC !important;
+    color: #29A68F !important;
     transition: linear 100ms; 
 }
 
 .nav-link:hover {
     font-family: 'Roboto', sans-serif;
     transform: scale(1.1);
-    color: #26699F !important;
+    color: #1F6A5D !important;
 }
 
 .register-btn {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    border: 2px solid #399EDC;
+    border: 2px solid #29A68F;
     border-radius: 5px;
     width: 100px;
-    background-color: #399EDC;
+    background-color: #29A68F;
     color: #FFFFFF !important;
     transition: linear 100ms;  
 }
 
 .register-btn:hover, .login-btn:hover {
     background-color: transparent;
-    color: #26699F !important;
-    border: 2px solid #26699F;
+    color: #1F6A5D !important;
+    border: 2px solid #1F6A5D;
 }
 
 .login-btn {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    border: 2px solid #399EDC;
+    border: 2px solid #29A68F;
     border-radius: 5px;
     width: 100px;
     background-color: transparent;
-    color: #399EDC !important;
+    color: #29A68F !important;
     transition: linear 100ms; 
 }
 
@@ -147,7 +147,7 @@ p {
 
 /* ABOUT US */
 .about-us-container {
-    background-color: #F9F9F9;
+    background-color: #f9f9f9;
     padding: 3% 0% 2% 0%;
     margin-top: 9%;
 }
@@ -178,7 +178,7 @@ p {
 }
 
 .accordion-button:not(.collapsed) {
-    color: #000000;
+    color: #1F6A5D;
     background-color: #FFFFFF;
     box-shadow: none;
 }
@@ -209,7 +209,7 @@ button:focus:not(:focus-visible) {
 
 /* FOOTER */
 footer {
-    background-color: #399EDC;
+    background-color: #1F6A5D;
     text-align: center;
     padding: 5% 0%;
 }
@@ -243,13 +243,13 @@ footer {
 
 .btn-login {
     border-radius: 5px;
-    background-color: #399EDC;
-    border: 2px solid #399EDC;
+    background-color: #1F6A5D;
+    border: 2px solid #1F6A5D;
 }
 
 .btn-login:hover {
     background-color: transparent;
-    color: #399EDC;
+    color: #1F6A5D;
     border: 2px solid #399EDC;
     box-shadow: none;
 }
